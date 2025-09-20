@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
+
+// UPDATE THIS URL TO YOUR RENDER BACKEND'S LIVE URL
+const API_URL = 'https://social-vibe-backend-axg9.onrender.com/api';
+
 // Mock API functions with localStorage persistence
 const mockAPI = {
   login: async (email, password) => {
