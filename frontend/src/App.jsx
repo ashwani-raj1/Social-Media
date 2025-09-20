@@ -943,7 +943,7 @@ function App() {
             
             {/* Demo Account Info */}
             <div className="mt-6 p-4 bg-blue-50 rounded-2xl">
-              <p className="text-sm text-blue-700 font-medium mb-2">🎯 Try with demo accounts:</p>
+        
               <div className="space-y-1 text-xs text-blue-600">
                 <button 
                   onClick={() => {
@@ -952,7 +952,7 @@ function App() {
                   }}
                   className="block w-full text-left hover:text-blue-800 transition-colors"
                 >
-                  📧 sarah.design@example.com / password123
+                
                 </button>
                 <button 
                   onClick={() => {
@@ -961,7 +961,7 @@ function App() {
                   }}
                   className="block w-full text-left hover:text-blue-800 transition-colors"
                 >
-                  📧 mike.photo@example.com / password123
+        
                 </button>
                 <button 
                   onClick={() => {
@@ -970,7 +970,7 @@ function App() {
                   }}
                   className="block w-full text-left hover:text-blue-800 transition-colors"
                 >
-                  📧 alex.dev@example.com / password123
+           
                 </button>
               </div>
             </div>
